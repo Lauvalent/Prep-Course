@@ -1,13 +1,18 @@
-h1 { color: blueviolet;}
+h1 { color: violet;}
 
-    img{ width: 400px}
+    img{ 
+        width:400px;
+        }
     
     #thirdDiv{
-        height: 500px;
-        width: 600px;
-        background-color: darksalmon;
+        height: 600px;
+        width: 500px;
+        background-color: rgb(228, 179, 31);
         padding: 50px;
-        border: 15px solid powderblue;
+        border: 15px solid darkred;
+        display: flex;
+        flex-flow: row wrap;
+
      }
 
     #spanId {
@@ -15,3 +20,17 @@ h1 { color: blueviolet;}
         margin: 50px;
 
     }
+
+body{
+    background: url(fondo1.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    }
+div{
+    margin: auto;
+}
+.divclass{
+ text-align: center; 
+}
+
